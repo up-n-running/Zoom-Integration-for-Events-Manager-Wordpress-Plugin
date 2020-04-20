@@ -11,6 +11,8 @@ __Help me: Download, use and feed back your experience to help me test and perfe
 * Display your Zoom link in confirmation emails and on the front-end 'Event Details' page.
 * Additional placeholders to make displaying the Zoom Link elegant and easy.
 
+Scroll down for screenshots.
+
 # Additional Placeholders
 These are all 'Event-level' placeholders so they can be used on the Event Details pages or in confirmation emails:
 
@@ -60,7 +62,7 @@ These are all 'Event-level' placeholders so they can be used on the Event Detail
  # Screenshots 
  
 ___Recurring Event Admin Screenshot:___
-![Recurring Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-1.png7?raw=true "Recurring Event Admin Screenshot")
+![Recurring Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-1.png?raw=true "Recurring Event Admin Screenshot")
 
 
 ___Front-end Event Listing Screenshot:___
