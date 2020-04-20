@@ -19,8 +19,8 @@
 # Additional Placeholders
 These are all 'Event-level' placeholders so they can be used on the event's page or in Confirmation emails:
 
- * *#_BOOKINGSTATUS* - Looks at all the bookings the user has made and raggregated into one status (ie if they have one pending, one cancelled and one confirmed booking then this status will show simply 'confirmed' because they are going to the event!
- * *#_ZOOMURL* - Allows you to show the zoom url on the Event Details page or in confirmation emails
+ * _*#_BOOKINGSTATUS*_ - Looks at all the bookings the user has made and raggregated into one status (ie if they have one pending, one cancelled and one confirmed booking then this status will show simply 'confirmed' because they are going to the event!
+ * _*#_ZOOMURL*_ - Allows you to show the zoom url on the Event Details page or in confirmation emails
  
  # Additional Conditional Placeholders
  Again, these are all 'Event-level' placeholders for use on event's page or in confirmation emails:
