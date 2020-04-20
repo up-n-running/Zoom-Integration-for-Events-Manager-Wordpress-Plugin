@@ -25,13 +25,13 @@ These are all 'Event-level' placeholders so they can be used on the event's page
  # Additional Conditional Placeholders
  Again, these are all 'Event-level' placeholders for use on event's page or in confirmation emails:
  
-  * *user_has_a_confirmed_booking* - Does the user have at least one confirmed booking (are they confirmed on the event)
-  * *is_zoom_event* - Is this event configured with a Zoom Link
-  * *is_zoom_event_and_user_has_a_confirmed_booking*
-  * *is_logged_in*
-  * *is_logged_out*
-  * *user_has_any_booking* - Does the user have at least one booking (any status)
-  * *user_has_booking_status_in_1_4_0* - Here you can change these numbers to filter by the different order statuses used behind the scenes
+  * *{user_has_a_confirmed_booking}* - Does the user have at least one confirmed booking (are they confirmed on the event)
+  * *{is_zoom_event}* - Is this event configured with a Zoom Link
+  * *{is_zoom_event_and_user_has_a_confirmed_booking}*
+  * *{is_logged_in}*
+  * *{is_logged_out}*
+  * *{user_has_any_booking}* - Does the user have at least one booking (any status)
+  * *{user_has_booking_status_in_1_4_0}* - Here you can change these numbers to filter by the different order statuses used behind the scenes
   
  # Example Placeholder Uses
 ```
@@ -42,11 +42,6 @@ These are all 'Event-level' placeholders so they can be used on the event's page
 {user_has_any_booking}
 <p>Your Booking Status is: *#_BOOKINGSTATUS*</p>
 {/user_has_any_booking}
-
-{user_has_booking_status_in_4_5}
-<p>Your Zoom Link will be available once you have made payment.</p>
-{/user_has_booking_status_in_4_5}
-
 
 {is_zoom_event_and_user_has_confirmed_booking}
     <p>Your Zoom Link is: #_ZOOMURL </p>
