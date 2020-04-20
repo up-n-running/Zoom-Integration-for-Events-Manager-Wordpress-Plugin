@@ -54,7 +54,7 @@ These are all 'Event-level' placeholders so they can be used on the Event Detail
 
  * I havent tested on multi-site installs as yet (but no reason why it wouldn't work)
  * It's only in English at present (why not help me translate?)
- * I havent tested with a public-facing front-end 'submit your won event' form yet (but should work)
+ * I havent tested with a public-facing front-end 'submit your own event' form yet (but should work)
  
  # Screenshots 
 Recurring Event Admin Screenshot:
