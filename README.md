@@ -58,11 +58,15 @@ These are all 'Event-level' placeholders so they can be used on the Event Detail
  * I havent tested with a public-facing front-end 'submit your own event' form yet (but should work)
  
  # Screenshots 
-Recurring Event Admin Screenshot:
+ 
+___Recurring Event Admin Screenshot:___
 ![Recurring Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-1.png7?raw=true "Recurring Event Admin Screenshot")
 
-Front-end Event Listing Screenshot:
+
+___Front-end Event Listing Screenshot:___
 ![Front-end Event Listing Screenshot](/upnrunning-eventman-extras/screenshot-2.png?raw=true "Front-end Event Listing Screenshot")
 
-Single Event Admin Screenshot:
+
+
+___Single Event Admin Screenshot:___
 ![Single Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-3.png?raw=true "Single Event Admin Screenshot")
