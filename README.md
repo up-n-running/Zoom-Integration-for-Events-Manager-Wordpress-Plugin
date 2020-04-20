@@ -1,7 +1,7 @@
 # Zoom Integration for Events Manager Wordpress Plugin
 100% free 3rd party child plugin for Events Manager wordpress plugin.
 
-*Help flatten the curve: Keep online events free and accessible for everyone*
+*Help flatten the curve: Keep people indoors - online events free and accessible for everyone*
 *Help me: Download, use and feed back your experience to help me test and perfect it*
 
 # Features
@@ -10,11 +10,11 @@
 * Display your zoom link in confirmation emails and on the front-end Event page
 * Additional placeholders to make displaying the Zoom Link elegant and easy
 
-![Recurring Event Admin Screenshot](/upnrunning-eventman_extras/screenshot-1.png?raw=true "Recurring Event Admin Screenshot")
+![Recurring Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-1.png?raw=true "Recurring Event Admin Screenshot")
 
-![Single Event Admin Screenshot](/upnrunning-eventman_extras/screenshot-3.png?raw=true "Single Event Admin Screenshot")
+![Single Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-3.png?raw=true "Single Event Admin Screenshot")
 
-![Front-end Event Listing Screenshot](/upnrunning-eventman_extras/screenshot-2.png?raw=true "Front-end Event Listing Screenshot")
+![Front-end Event Listing Screenshot](/upnrunning-eventman-extras/screenshot-2.png?raw=true "Front-end Event Listing Screenshot")
 
 # Additional Placeholders
 These are all 'Event-level' placeholders so they can be used on the event's page or in Confirmation emails:
@@ -47,6 +47,13 @@ These are all 'Event-level' placeholders so they can be used on the event's page
     <p>Your Zoom Link is: #_ZOOMURL </p>
 {/is_zoom_event_and_user_has_confirmed_booking}
 ```
+# Installation Instructions
+ - Just download upnrunning-eventman-extras.zip above
+ - Login to your wordpress wp-admin console
+ - On the left hand navigation menu Click Plugins --> Add new
+ - Click 'Upload Plugin' at the top
+ - Select the zip file
+ - Remember to contact me to tell me about your expoerience of installing & implementing - help flatten the curve!
 
 # Disclaimer for Wordpress Developers:
 100% Free - All i ask in return is that you feedback your expereince of using it and any issues you face. Even better join in and help me add new features :)
