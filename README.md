@@ -5,16 +5,16 @@
 *Help me: Download, use and feed back your experience to help me test and perfect it*
 
 # Features
-* Manage your Zoom link on the Edit event and edit Recurring Event screens.
-* Elegantly manage recurring events where each child chared the same link or where each child has it's own individual link
-* Display your zoom link in confirmation emails and on the front-end Event page
-* Additional placeholders to make displaying the Zoom Link elegant and easy
+* Manage your Zoom link on the Edit event and edit 'Recurring Event' screens.
+* Elegantly manage recurring events where each child shares the same link or where each child has it's own individual link.
+* Display your Zoom link in confirmation emails and on the front-end 'Event Details' page.
+* Additional placeholders to make displaying the Zoom Link elegant and easy.
 
 # Additional Placeholders
-These are all 'Event-level' placeholders so they can be used on the event's page or in Confirmation emails:
+These are all 'Event-level' placeholders so they can be used on the Event Details pages or in confirmation emails:
 
  * *#_BOOKINGSTATUS* - Looks at all the bookings the user has made and raggregated into one status (ie if they have one pending, one cancelled and one confirmed booking then this status will show simply 'confirmed' because they are going to the event!
- * *#_ZOOMURL* - Allows you to show the zoom url on the Event Details page or in confirmation emails
+ * *#_ZOOMURL* - Allows you to show the zoom url on the Event Details page or in confirmation emails.
  
  # Additional Conditional Placeholders
  Again, these are all 'Event-level' placeholders for use on event's page or in confirmation emails:
