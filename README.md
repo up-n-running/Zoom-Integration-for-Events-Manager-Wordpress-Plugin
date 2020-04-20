@@ -59,10 +59,10 @@ These are all 'Event-level' placeholders so they can be used on the Event Detail
  
  # Screenshots 
 Recurring Event Admin Screenshot:
-![Recurring Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-1.png/600x317?raw=true "Recurring Event Admin Screenshot")
+![Recurring Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-1.png7?raw=true "Recurring Event Admin Screenshot")
 
 Front-end Event Listing Screenshot:
-![Front-end Event Listing Screenshot](/upnrunning-eventman-extras/screenshot-2.png/600x264?raw=true "Front-end Event Listing Screenshot")
+![Front-end Event Listing Screenshot](/upnrunning-eventman-extras/screenshot-2.png?raw=true "Front-end Event Listing Screenshot")
 
 Single Event Admin Screenshot:
-![Single Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-3.png/600x218?raw=true "Single Event Admin Screenshot")
+![Single Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-3.png?raw=true "Single Event Admin Screenshot")
