@@ -62,13 +62,21 @@ These are all 'Event-level' placeholders so they can be used on the Event Detail
  # Screenshots 
  
 ___Recurring Event Admin Screenshot:___
+
 ![Recurring Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-1.png?raw=true "Recurring Event Admin Screenshot")
 
 
 ___Front-end Event Listing Screenshot:___
+
 ![Front-end Event Listing Screenshot](/upnrunning-eventman-extras/screenshot-2.png?raw=true "Front-end Event Listing Screenshot")
 
 
-
 ___Single Event Admin Screenshot:___
+
 ![Single Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-3.png?raw=true "Single Event Admin Screenshot")
+
+# Proposed new features
+
+ * Integrate with https://wordpress.org/plugins/video-conferencing-with-zoom-api/
+ * Video Conferences from within yur website using zoom browser integration plugin
+ * Use Zoom API to geneate Zoom links from within Wordpress Admin Console.
