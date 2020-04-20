@@ -1,7 +1,7 @@
 # Zoom Integration for Events Manager Wordpress Plugin
 100% free 3rd party child plugin for Events Manager wordpress plugin.
 
-__Help flatten the curve: Keep people indoors - online events free and accessible for everyone__
+__Help flatten the curve: Keep people indoors & keep online events free and accessible for everyone__
 
 __Help me: Download, use and feed back your experience to help me test and perfect it__
 
