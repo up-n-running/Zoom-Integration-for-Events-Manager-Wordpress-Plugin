@@ -10,12 +10,6 @@
 * Display your zoom link in confirmation emails and on the front-end Event page
 * Additional placeholders to make displaying the Zoom Link elegant and easy
 
-![Recurring Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-1.png?raw=true "Recurring Event Admin Screenshot")
-
-![Single Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-3.png?raw=true "Single Event Admin Screenshot")
-
-![Front-end Event Listing Screenshot](/upnrunning-eventman-extras/screenshot-2.png?raw=true "Front-end Event Listing Screenshot")
-
 # Additional Placeholders
 These are all 'Event-level' placeholders so they can be used on the event's page or in Confirmation emails:
 
@@ -61,3 +55,13 @@ These are all 'Event-level' placeholders so they can be used on the event's page
  * I havent tested on multi-site installs as yet (but no reason why it wouldn't work)
  * It's only in English at present (why not help me translate?)
  * I havent tested with a public-facing front-end 'submit your won event' form yet (but should work)
+ 
+ # Screenshots 
+Recurring Event Admin Screenshot:
+![Recurring Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-1.png/600x317?raw=true "Recurring Event Admin Screenshot")
+
+Front-end Event Listing Screenshot:
+![Front-end Event Listing Screenshot](/upnrunning-eventman-extras/screenshot-2.png/600x264?raw=true "Front-end Event Listing Screenshot")
+
+Single Event Admin Screenshot:
+![Single Event Admin Screenshot](/upnrunning-eventman-extras/screenshot-3.png/600x218?raw=true "Single Event Admin Screenshot")
