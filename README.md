@@ -48,7 +48,7 @@ These are all 'Event-level' placeholders so they can be used on the Event Detail
     <p>To access this event chick here: <a href="#_ZOOMURL">#_ZOOMURL</a></p>
 {/is_zoom_event_and_user_has_confirmed_booking}
 
-<!-- If you want to integrate with Video Conferencing with Zoom" plugin -->
+<!-- Example of integrating with Video Conferencing with Zoom" plugin -->
 {is_zoom_event_and_user_has_a_confirmed_booking}
 [zoom_api_link meeting_id="#_ZOOMURL" link_only="no"]
 {/is_zoom_event_and_user_has_a_confirmed_booking}
