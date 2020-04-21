@@ -1,9 +1,13 @@
 # Zoom Integration for Events Manager Wordpress Plugin
-100% free 3rd party child plugin for Events Manager wordpress plugin.
+100% free 3rd party child plugin for Events Manager wordpress plugin. 
 
 __Help flatten the curve: Keep people indoors & keep online events free and accessible for everyone__
 
 __Help me: Download, use and feed back your experience to help me test and perfect it__
+
+Making Zoom events can be done without my plugin by adding a custom field to the 'Edit Event' Screen but it's not difficult to manage who can see the link and when. This plugin manages that extra field in a more elegant way and gives you more control over who cab see the link (ie only show link to users who have a confirmed booking for the event)
+
+Optionally you can integrate with "Video Conferencing with Zoom" plugin (https://wordpress.org/plugins/video-conferencing-with-zoom-api/), or "Zoom Video Conferencing" (https://elearningevolve.com/products/wordpress-zoom-integration/?fbclid=IwAR3zmOFM_EjDFrc4apHF5Rvcy78LyfUDxenNjdAPWFFerWHrzvvesBbl35w) though more elegant integration is planned should there be demand.
 
 # Features
 * Manage your Zoom link on the Edit event and edit 'Recurring Event' screens.
@@ -28,7 +32,7 @@ These are all 'Event-level' placeholders so they can be used on the Event Detail
   * *{is_logged_in}*
   * *{is_logged_out}*
   * *{user_has_any_booking}* - Does the user have at least one booking (any status)
-  * *{user_has_booking_status_in_1_4_0}* - Here you can change these numbers to filter by the different order statuses used behind the scenes
+  * *{user_has_booking_status_in_1_4_0}* - Here you can supply any list of numbers at the end of the placeholder to filter by the different order statuses used behind the scenes ( 0=Provisional, 1=Confirmed, 4=Awaiting Payment, etc )
   
  # Example Placeholder Uses
 ```
@@ -41,8 +45,13 @@ These are all 'Event-level' placeholders so they can be used on the Event Detail
 {/user_has_any_booking}
 
 {is_zoom_event_and_user_has_confirmed_booking}
-    <p>Your Zoom Link is: #_ZOOMURL </p>
+    <p>To access this event chick here: <a href="#_ZOOMURL">#_ZOOMURL</a></p>
 {/is_zoom_event_and_user_has_confirmed_booking}
+
+<!-- If you want to integrate with Video Conferencing with Zoom" plugin -->
+{is_zoom_event_and_user_has_a_confirmed_booking}
+[zoom_api_link meeting_id="#_ZOOMURL" link_only="no"]
+{/is_zoom_event_and_user_has_a_confirmed_booking}
 ```
 # Installation Instructions
  - Just download upnrunning-eventman-extras.zip above
