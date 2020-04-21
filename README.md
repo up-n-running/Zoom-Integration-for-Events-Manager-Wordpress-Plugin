@@ -86,6 +86,6 @@ ___Single Event Admin Screenshot:___
 
 # Proposed new features
 
- * Integrate with https://wordpress.org/plugins/video-conferencing-with-zoom-api/
+ * Integrate more elegantly with https://wordpress.org/plugins/video-conferencing-with-zoom-api/
  * Video Conferences from within yur website using zoom browser integration plugin
  * Use Zoom API to geneate Zoom links from within Wordpress Admin Console.
